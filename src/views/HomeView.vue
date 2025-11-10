@@ -1,5 +1,8 @@
 <template>
-  <div class="relative h-screen flex flex-col items-center justify-center overflow-hidden">
+  <div
+    class="relative h-screen flex flex-col items-center justify-center overflow-hidden transition-opacity duration-1000"
+    :class="{ 'opacity-0': fadingOut }"
+  >
     <!-- Fundo principal -->
     <div
       class="absolute inset-0 bg-cover bg-center brightness-75"
@@ -11,13 +14,16 @@
       <canvas ref="particlesCanvas" class="w-full h-full"></canvas>
     </div>
 
-    <!-- Conteúdo principal -->
+    <!-- Conteúdo -->
     <div class="relative z-10 flex flex-col items-center">
-      <h1 class="text-5xl md:text-6xl font-extrabold text-white drop-shadow-[0_0_15px_rgba(128,0,255,0.8)] mb-8 animate-fade-in">
+      <h1
+        class="text-5xl md:text-6xl font-extrabold text-white drop-shadow-[0_0_15px_rgba(128,0,255,0.8)] mb-8 animate-fade-in"
+      >
         Drakonik Nexus!
       </h1>
 
       <button
+        @click="startGame"
         class="px-8 py-3 text-lg font-semibold text-white border-2 border-purple-500 rounded-xl hover:bg-purple-700 transition duration-300 shadow-[0_0_10px_rgba(128,0,255,0.6)]"
       >
         Iniciar
@@ -28,8 +34,18 @@
 
 <script setup>
 import { onMounted, ref } from "vue";
+import { useRouter } from "vue-router";
 
+const router = useRouter();
 const particlesCanvas = ref(null);
+const fadingOut = ref(false);
+
+const startGame = () => {
+  fadingOut.value = true;
+  setTimeout(() => {
+    router.push("/game");
+  }, 1200); // tempo do fade-out
+};
 
 onMounted(() => {
   const canvas = particlesCanvas.value;
