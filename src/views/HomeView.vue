@@ -38,14 +38,11 @@
         class="title text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-widest text-center"
         :class="{ 'glow': showTitle }"
       >
-        DRAKONIK NEXUS!
+        Drakonik Nexus!
       </h1>
 
       <nav class="menu flex flex-col sm:flex-row gap-4 items-center justify-center">
         <button class="menu-btn" @click="handle('start')">Iniciar</button>
-        <button class="menu-btn" @click="handle('cards')">Cartas</button>
-        <button class="menu-btn" @click="handle('settings')">Configurações</button>
-        <button class="menu-btn" @click="handle('about')">Sobre</button>
       </nav>
     </div>
   </div>
@@ -53,6 +50,9 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 /* Visual behavior */
 const showCharacter = ref(false)
@@ -161,8 +161,9 @@ onBeforeUnmount(() => {
 })
 
 function handle(action: string) {
-  // placeholder: substitua por router.push(...) ou lógica do projeto
-  console.log('Menu action:', action)
+  if (action === 'start') {
+    router.push('/game')
+  }
 }
 </script>
 
