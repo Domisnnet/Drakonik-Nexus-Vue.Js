@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative h-screen flex flex-col items-center justify-center overflow-hidden transition-opacity duration-1000"
+    class="fixed inset-0 flex flex-col items-center justify-center overflow-hidden transition-opacity duration-1000"
     :class="{ 'opacity-0': fadingOut }"
   >
     <!-- Fundo -->
@@ -42,11 +42,11 @@ const fadingOut = ref(false);
 let iniciarSom;
 
 onMounted(() => {
-  // carrega o som
+  // Carrega o som de introdução
   iniciarSom = new Audio("/sounds/intro-sound.mp3");
-  iniciarSom.volume = 0.6; // volume médio
+  iniciarSom.volume = 0.6;
 
-  // configura partículas
+  // Configura o canvas de partículas
   const canvas = particlesCanvas.value;
   const ctx = canvas.getContext("2d");
 
@@ -103,11 +103,26 @@ const startGame = () => {
   fadingOut.value = true;
   setTimeout(() => {
     router.push("/game");
-  }, 1500); // tempo para o som + fade
+  }, 1500); // tempo de fade antes de trocar de tela
 };
 </script>
 
 <style>
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background: black;
+}
+
+canvas {
+  display: block;
+}
+
+/* Animação de fade */
 @keyframes fade-in {
   from {
     opacity: 0;
