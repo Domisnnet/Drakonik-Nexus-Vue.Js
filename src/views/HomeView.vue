@@ -94,7 +94,9 @@ html, body, #app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end; 
+  padding-bottom: 6vh;
+  box-sizing: border-box; 
   overflow: hidden;
   transition: opacity 1s ease;
   background: black;
@@ -105,7 +107,7 @@ html, body, #app {
   position: absolute;
   inset: 0;
   background-image: url("/images/tela3.png");
-  background-size: cover; 
+  background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat;
   filter: brightness(0.75);
