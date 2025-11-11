@@ -120,7 +120,7 @@ const startGame = () => {
   background-repeat: no-repeat;
   left: 0;
   background-position: center;
-  transform: scaleX(-1); 
+  transform: scaleX(-1);
 }
 
 .dragon-right {
@@ -164,7 +164,7 @@ const startGame = () => {
 .title {
   font-size: 3rem;
   font-weight: 800;
-  color: black;
+  color: black; 
   text-shadow: 0 0 20px rgba(128, 0, 255, 0.8);
   margin-bottom: 2rem;
   animation: fade-in 1.5s ease-out forwards;
@@ -197,7 +197,20 @@ const startGame = () => {
   }
 }
 
-/* Media Query para Responsividade */
+/* Media Query para Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .dragon-left {
+    display: none; /* Esconde o dragão esquerdo */
+  }
+  .dragon-right {
+    width: 100%; /* Ocupa a tela inteira */
+    background-image: url('/images/dragon-right.png');
+    background-position: center;
+    transform: none; /* Garante que não haja espelhamento */
+  }
+}
+
+/* Media Query para Mobile */
 @media (max-width: 768px) {
   .desktop-background {
     display: none; 
@@ -208,7 +221,7 @@ const startGame = () => {
   }
 
   .title {
-    color: black;
+    color: black; 
     font-size: 2.5rem;
   }
 
