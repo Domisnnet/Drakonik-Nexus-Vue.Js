@@ -97,7 +97,7 @@ const startGame = () => {
   position: absolute;
   inset: 0;
   background-image: url("/images/tela3.png");
-  background-size: cover; 
+  background-size: contain; 
   background-position: center; 
   background-repeat: no-repeat;
   filter: brightness(0.75);
@@ -107,11 +107,11 @@ const startGame = () => {
 }
 
 .background-mobile {
-  display: none; /* Oculto por padrão */
+  display: none; 
   position: absolute;
   inset: 0;
   background-image: url('/images/tela-inicial.jpg');
-  background-size: cover; /* Corrigido de contain para cover */
+  background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
