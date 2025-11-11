@@ -35,7 +35,7 @@
 import { ref, onMounted, onBeforeUnmount, computed } from "vue";
 import { useRouter } from "vue-router";
 import { useGameStore } from "@/stores/game";
-import FlipCard from "@/components/FlipCard.vue";
+import FlipCard from "@/components/game/FlipCard.vue";
 
 const router = useRouter();
 const gameStore = useGameStore();
