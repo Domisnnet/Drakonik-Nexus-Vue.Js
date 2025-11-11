@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #1a0033; /* Um fundo escuro diferente para diferenciar */
+  background-color: #1a0033; 
   color: white;
   box-sizing: border-box;
 }
