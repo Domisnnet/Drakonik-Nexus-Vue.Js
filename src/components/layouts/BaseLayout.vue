@@ -1,22 +1,19 @@
 <template>
   <div
-    class="relative w-full h-screen overflow-hidden flex flex-col items-center justify-center bg-gradient-to-b from-black via-indigo-950 to-black"
+    class="relative w-full h-screen flex flex-col items-center justify-center bg-gradient-to-b from-black via-indigo-950 to-black overflow-hidden"
   >
-    <!-- Canvas de partículas -->
-    <canvas
-      ref="particlesCanvas"
-      class="absolute inset-0 w-full h-full pointer-events-none z-0"
-    ></canvas>
+    <!-- Canvas ou partículas globais -->
+    <canvas ref="particlesCanvas" class="absolute inset-0 z-0 pointer-events-none"></canvas>
 
-    <!-- Slot do conteúdo -->
-    <div class="relative z-10 w-full h-full flex flex-col items-center justify-center">
+    <!-- Slot principal -->
+    <main class="relative z-20 w-full h-full flex items-center justify-center">
       <slot />
-    </div>
+    </main>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { onMounted, ref } from "vue";
 
 const particlesCanvas = ref(null);
 
@@ -25,14 +22,14 @@ onMounted(() => {
   if (!canvas) return;
   const ctx = canvas.getContext("2d");
 
-  const resizeCanvas = () => {
+  const resize = () => {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
   };
-  resizeCanvas();
-  window.addEventListener("resize", resizeCanvas);
+  resize();
+  window.addEventListener("resize", resize);
 
-  const particles = Array.from({ length: 100 }, () => ({
+  const particles = Array.from({ length: 80 }, () => ({
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height,
     r: Math.random() * 2 + 1,
@@ -40,13 +37,12 @@ onMounted(() => {
   }));
 
   const animate = () => {
-    if (!ctx) return;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = "rgba(160, 80, 255, 0.7)";
+    ctx.fillStyle = "rgba(160, 80, 255, 0.6)";
     ctx.beginPath();
     for (const p of particles) {
       ctx.moveTo(p.x, p.y);
-      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2, true);
+      ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
       p.y += p.d;
       if (p.y > canvas.height) {
         p.y = 0;
@@ -56,6 +52,7 @@ onMounted(() => {
     ctx.fill();
     requestAnimationFrame(animate);
   };
+
   animate();
 });
 </script>
