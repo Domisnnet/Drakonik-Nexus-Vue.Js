@@ -187,7 +187,7 @@ const startGame = () => {
   }
 
   .home-container {
-    padding-bottom: 12vh; /* Ajuste no espaçamento inferior para mobile */
+    padding-bottom: 12vh; 
   }
 }
 </style>
