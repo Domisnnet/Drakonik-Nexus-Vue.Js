@@ -1,6 +1,5 @@
 <template>
   <div class="w-full max-w-5xl mx-auto px-4 py-8">
-    <!-- Game Header -->
     <div class="flex justify-between items-center mb-6 bg-slate-800/50 p-4 rounded-xl shadow-lg border border-slate-700">
       <div class="flex gap-6">
         <div class="text-center">
@@ -27,7 +26,7 @@
       </div>
     </div>
 
-    <!-- Game Grid: Updated to 4 columns -->
+    <!-- Grade do jogo: Atualizada para 4 colunas -->
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       <FlipCard
         v-for="card in game.cards"
@@ -47,7 +46,7 @@
       />
     </div>
 
-    <!-- Game Over Modal -->
+    <!-- Modal - Game Over -->
     <div v-if="game.isGameOver" class="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
       <div class="bg-slate-800 p-8 rounded-2xl shadow-cyan-500/20 shadow-xl text-center border-2 border-slate-700">
         <h2 class="text-4xl font-bold text-white mb-2">Parabéns!</h2>
