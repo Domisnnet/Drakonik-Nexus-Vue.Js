@@ -4,7 +4,6 @@
     :class="{ 'pointer-events-none': isMatched }"
     @click="handleClick"
   >
-    <!-- Inner container for the flip effect -->
     <div
       class="relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d]"
       :class="{ '[transform:rotateY(180deg)]': isFlipped || isMatched }"
@@ -18,12 +17,9 @@
         />
       </div>
 
-      <!-- Front of the card: Final, robust Flexbox layout -->
       <div
         class="absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-lg md:rounded-xl overflow-hidden shadow-2xl border-2 border-slate-700 flex flex-col"
-        :class="`bg-[url('/images/${fundo}.jpg')] bg-cover`"
-      >
-        <!-- 1. Header (fixed size) -->
+        :class="`bg-[url('/images/${fundo}.jpg')] bg-cover`">
         <div class="p-2 bg-gradient-to-b from-black/80 to-transparent text-white flex-shrink-0">
           <div class="flex justify-between items-start">
             <h2 class="text-sm font-bold leading-tight pr-2">{{ nome }}</h2>
@@ -34,12 +30,9 @@
           </div>
         </div>
 
-        <!-- 2. Image container (takes all remaining space) -->
         <div class="flex-1 relative min-h-0 border-y-2 border-slate-600">
           <img :src="characterImageUrl" :alt="alt" class="absolute inset-0 w-full h-full object-cover" />
         </div>
-
-        <!-- 3. Body (fixed height) -->
         <div class="p-2 text-white bg-gradient-to-t from-black/80 to-transparent flex-shrink-0 h-28 flex flex-col">
           <div class="flex-1 overflow-y-auto scrollbar-thin">
             <p class="text-xs sm:text-sm italic font-serif leading-snug">
@@ -74,7 +67,6 @@ const props = defineProps({
 });
 
 const emit = defineEmits(['flip-card']);
-
 const characterImageUrl = computed(() => `/images/${props.imagem}`);
 
 function handleClick() {
@@ -85,7 +77,6 @@ function handleClick() {
 </script>
 
 <style scoped>
-/* Custom scrollbar for Webkit browsers (Chrome, Safari) */
 .scrollbar-thin::-webkit-scrollbar {
   width: 5px;
 }
@@ -98,7 +89,6 @@ function handleClick() {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-/* Custom scrollbar for Firefox */
 .scrollbar-thin {
   scrollbar-width: thin;
   scrollbar-color: rgba(136, 192, 208, 0.5) transparent;
