@@ -1,31 +1,6 @@
+
 <template>
   <div class="w-full max-w-5xl mx-auto px-4 py-8">
-    <div class="flex justify-between items-center mb-6 bg-slate-800/50 p-4 rounded-xl shadow-lg border border-slate-700">
-      <div class="flex gap-6">
-        <div class="text-center">
-          <span class="text-sm font-semibold text-cyan-400">PONTUAÇÃO</span>
-          <p class="text-3xl font-bold text-white">{{ game.score }}</p>
-        </div>
-        <div class="text-center">
-          <span class="text-sm font-semibold text-cyan-400">MOVIMENTOS</span>
-          <p class="text-3xl font-bold text-white">{{ game.moves }}</p>
-        </div>
-      </div>
-      <div class="flex gap-4">
-        <button
-          @click="game.initializeGame"
-          class="px-6 py-2 bg-cyan-600 text-white font-bold rounded-lg shadow-md hover:bg-cyan-700 transition-colors duration-300"
-        >
-          Reiniciar
-        </button>
-        <router-link to="/">
-          <button class="px-6 py-2 bg-slate-600 text-white font-bold rounded-lg shadow-md hover:bg-slate-700 transition-colors duration-300">
-            Início
-          </button>
-        </router-link>
-      </div>
-    </div>
-
     <!-- Grade do jogo: Atualizada para 4 colunas -->
     <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       <FlipCard

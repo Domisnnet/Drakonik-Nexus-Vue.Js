@@ -29,14 +29,7 @@
       <p>Sua pontuação final foi {{ gameStore.score }} em {{ gameStore.moves }} movimentos.</p>
     </div>
 
-    <!-- Título da Seção -->
-    <h2 v-if="!gameStore.isGameOver" class="text-2xl md:text-3xl font-bold text-white my-6 drop-shadow-lg">
-      Escolha uma carta
-    </h2>
-
-    <!-- Tabuleiro do Jogo -->
     <GameBoard />
-
   </div>
 </template>
 
