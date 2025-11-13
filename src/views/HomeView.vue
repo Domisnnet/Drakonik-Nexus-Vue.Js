@@ -7,7 +7,7 @@
       <!-- Fundo para Celular/Tablet (Visível até xl) -->
       <div
         class="block xl:hidden h-full w-full bg-cover bg-center brightness-75"
-        style="background-image: url('/images/dragon-mobile.png');"
+        style="background-image: url('/images/dragon-mobile.jpg');"
       ></div>
 
       <!-- Fundo para Desktop (Visível a partir de xl) -->
