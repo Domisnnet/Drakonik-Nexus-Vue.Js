@@ -9,7 +9,7 @@
       <FlipCard
         v-if="currentCard"
         :key="currentCard.id" 
-        :id="currentCard.id"
+        :card-id="currentCard.id"
         :pair-value="currentCard.pairValue"
         :nome="currentCard.nome"
         :fundo="currentCard.fundo"
@@ -70,10 +70,12 @@ const touchStartX = ref(0);
 const touchThreshold = 50; // Distância mínima de swipe em pixels
 
 function handleTouchStart(event: TouchEvent) {
+  if (event.changedTouches.length === 0) return;
   touchStartX.value = event.changedTouches[0].screenX;
 }
 
 function handleTouchEnd(event: TouchEvent) {
+  if (event.changedTouches.length === 0) return;
   const touchEndX = event.changedTouches[0].screenX;
   const deltaX = touchEndX - touchStartX.value;
 
