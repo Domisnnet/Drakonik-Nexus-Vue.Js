@@ -1,8 +1,7 @@
-
 <template>
   <div class="w-full max-w-5xl mx-auto px-4 py-8">
-    <!-- Grade do jogo: Atualizada para 4 colunas -->
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+    <!-- Grade do jogo: Responsiva -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
       <FlipCard
         v-for="card in game.cards"
         :key="card.id"
