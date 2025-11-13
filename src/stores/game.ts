@@ -2,7 +2,7 @@ import { defineStore } from 'pinia';
 import type { Card } from '../types';
 
 // === DADOS BASE DOS CARDS === //
-const RAW_CARD_DATA = [
+const RAW_CARD_DATA: Card[] = [
   {
     pairValue: 1,
     nome: 'Cosmos Sentinel, o Guardião Galáctico',
@@ -110,7 +110,7 @@ export const useGameStore = defineStore('game', {
     flipCard(cardId: number) {
       if (this.flippedCards.length >= 2) return;
 
-      const card = this.cards.find(c => c.id === cardId);
+      const card = this.cards.find((c: { id: number; }) => c.id === cardId);
       if (card && !card.isFlipped) {
         card.isFlipped = true;
         this.flippedCards.push(card);
@@ -141,7 +141,7 @@ export const useGameStore = defineStore('game', {
     },
 
     checkGameOver() {
-      if (this.cards.every(card => card.isMatched)) {
+      if (this.cards.every((card: { isMatched: any; }) => card.isMatched)) {
         this.isGameOver = true;
       }
     },
