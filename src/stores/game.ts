@@ -1,7 +1,6 @@
 import { defineStore } from 'pinia';
-import type { Card } from '@/types'; // Corrigido para usar o alias @
+import type { Card } from '@/types';
 
-// === DADOS BASE DOS CARDS === //
 const RAW_CARD_DATA: Omit<Card, 'id' | 'isFlipped' | 'isMatched'>[] = [
   {
     pairValue: 1,
@@ -92,16 +91,19 @@ export const useGameStore = defineStore('game', {
 
   actions: {
     initializeGame() {
-      this.uniqueCards = RAW_CARD_DATA.map((card, index) => ({
+      // Corrigido: Adiciona tipo de retorno explícito `: Card` para garantir a conformidade
+      this.uniqueCards = RAW_CARD_DATA.map((card, index): Card => ({
         ...card,
         id: index,
         isFlipped: true, 
         isMatched: false,
       }));
 
-      const duplicatedCards = [...RAW_CARD_DATA, ...RAW_CARD_DATA];
-      const shuffledCards: Card[] = duplicatedCards
-        .map((card, index) => ({
+      const duplicatedCards = [...this.uniqueCards, ...this.uniqueCards];
+      
+      // Corrigido: Adiciona tipo de retorno explícito `: Card` para garantir a conformidade
+      const shuffledCards = duplicatedCards
+        .map((card, index): Card => ({
           ...card,
           id: index, 
           isFlipped: false, 
