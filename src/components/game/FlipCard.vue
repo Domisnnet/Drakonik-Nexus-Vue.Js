@@ -11,15 +11,16 @@
       <!-- Back of the card -->
       <div class="absolute w-full h-full [backface-visibility:hidden]">
         <img
-          src="/images/fundo-carta.jpg"
+          :src="fundoCarta"
           alt="Verso da Carta"
           class="w-full h-full object-cover rounded-lg md:rounded-xl shadow-lg hover:shadow-cyan-500/50 transition-shadow duration-300"
         />
       </div>
 
+      <!-- Front of the card -->
       <div
-        class="absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-lg md:rounded-xl overflow-hidden shadow-2xl border-2 border-slate-700 flex flex-col"
-        :class="`bg-[url('/images/${fundo}.jpg')] bg-cover`"
+        class="absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-lg md:rounded-xl overflow-hidden shadow-2xl border-2 border-slate-700 flex flex-col bg-cover"
+        :style="{ backgroundImage: `url(${fundoUrl})` }"
       >
         <div class="p-2 bg-gradient-to-b from-black/80 to-transparent text-white flex-shrink-0">
           <div class="flex justify-between items-start">
@@ -61,6 +62,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
+import fundoCarta from '../../assets/images/fundo-carta.jpg';
 
 const props = defineProps({
   id: { type: Number, required: true },
@@ -77,7 +79,13 @@ const props = defineProps({
 });
 
 const emit = defineEmits(['flip-card']);
-const characterImageUrl = computed(() => `/images/${props.imagem}`);
+
+const getImageUrl = (name: string) => {
+  return new URL(`../../assets/images/${name}`, import.meta.url).href;
+};
+
+const characterImageUrl = computed(() => getImageUrl(props.imagem));
+const fundoUrl = computed(() => getImageUrl(`${props.fundo}.jpg`));
 
 function handleClick() {
   if (!props.isMatched) {

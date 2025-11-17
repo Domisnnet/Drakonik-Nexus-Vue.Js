@@ -7,18 +7,18 @@
       <!-- Fundo para Celular/Tablet (Visível até xl) -->
       <div
         class="block xl:hidden h-full w-full bg-cover bg-center brightness-75"
-        style="background-image: url('/images/dragon-mobile.jpg')"
+        :style="{ backgroundImage: `url(${dragonMobile})` }"
       ></div>
 
       <!-- Fundo para Desktop (Visível a partir de xl) -->
       <div class="hidden xl:flex w-full h-full">
         <div
           class="h-full w-1/2 bg-cover bg-no-repeat bg-center brightness-75 transform -scale-x-100"
-          style="background-image: url('/images/dragon-left.png')"
+          :style="{ backgroundImage: `url(${dragonLeft})` }"
         ></div>
         <div
           class="h-full w-1/2 bg-cover bg-no-repeat bg-center brightness-75"
-          style="background-image: url('/images/dragon-right.png')"
+          :style="{ backgroundImage: `url(${dragonRight})` }"
         ></div>
       </div>
     </div>
@@ -49,13 +49,17 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
+import dragonMobile from '../assets/images/dragon-mobile.jpg';
+import dragonLeft from '../assets/images/dragon-left.png';
+import dragonRight from '../assets/images/dragon-right.png';
+import introSound from '../assets/sounds/intro-sound.mp3';
 
 const router = useRouter();
 const particlesCanvas = ref(null);
 const fadingOut = ref(false);
 
 const startGame = () => {
-  const audio = new Audio('/sounds/intro-sound.mp3');
+  const audio = new Audio(introSound);
   audio.volume = 0.2;
   audio.play();
 
