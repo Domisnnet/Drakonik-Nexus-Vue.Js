@@ -49,13 +49,23 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import { useRouter } from 'vue-router';
-import dragonMobile from '../assets/images/dragon-mobile.jpg';
-import dragonLeft from '../assets/images/dragon-left.png';
-import dragonRight from '../assets/images/dragon-right.png';
-import introSound from '../assets/sounds/intro-sound.mp3';
+// Refatorado para usar o atalho @
+import dragonMobile from '@/assets/images/dragon-mobile.jpg';
+import dragonLeft from '@/assets/images/dragon-left.png';
+import dragonRight from '@/assets/images/dragon-right.png';
+import introSound from '@/assets/sounds/intro-sound.mp3';
+
+// Interface para tipar as partículas
+interface Particle {
+  x: number;
+  y: number;
+  r: number; // radius
+  d: number; // density/speed
+}
 
 const router = useRouter();
-const particlesCanvas = ref(null);
+// Tipagem explícita para o elemento canvas
+const particlesCanvas = ref<HTMLCanvasElement | null>(null);
 const fadingOut = ref(false);
 
 const startGame = () => {
@@ -72,9 +82,12 @@ const startGame = () => {
 onMounted(() => {
   const canvas = particlesCanvas.value;
   if (!canvas) return;
+  // Agora o TS sabe que canvas é um HTMLCanvasElement, então getContext é válido
   const ctx = canvas.getContext('2d');
+  if (!ctx) return; // Boa prática: verificar se o contexto foi obtido
 
-  const particles = [];
+  // Tipagem explícita para o array de partículas
+  const particles: Particle[] = [];
   let particleCount = 100;
 
   const setupParticles = () => {
@@ -100,6 +113,7 @@ onMounted(() => {
   resizeCanvas();
 
   const animate = () => {
+    // A verificação do ctx já foi feita acima, mas por segurança podemos manter
     if (!ctx) return;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = 'rgba(179, 136, 255, 0.6)';
