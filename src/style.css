@@ -9,7 +9,6 @@ body {
   font-family: 'Roboto', sans-serif; /* Exemplo de uma fonte mais moderna */
 }
 
-/* Garante que o aplicativo ocupe toda a altura */
 html,
 body,
 #app {
