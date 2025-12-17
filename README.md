@@ -59,7 +59,7 @@ Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para cr
 
 <h2 id="como-jogar">3. 🚀 Como Jogar</h2>
 
-1. Acesse um dos links de implantação abaixo.
+1. Acesse um dos links na Seção: implantação.
 2. Clique em uma carta para revelá-la.  
 3. Encontre o par correspondente.  
 4. Complete o tabuleiro e vença o duelo!
