@@ -140,7 +140,7 @@ O projeto está disponível para jogar online nos seguintes links:
     </li>
     <li>
       <span style="font-weight: bold; color: #1c7430;">6. 🐛
-        Achou algum problema? - Realte pela Issue:<br>
+        Achou algum problema? - Relate pela Issue:<br>
       <a href="https://github.com/Domisnnet/Drakonic-Nexus-Vue.Js/issues" target="_blank">
         <img alt="Issues Abertas" 
         src="https://img.shields.io/github/issues/Domisnnet/Drakonic-Nexus-Vue.Js?style=for-the-badge&color=red">
