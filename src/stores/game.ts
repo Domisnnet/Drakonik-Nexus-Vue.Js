@@ -86,7 +86,7 @@ interface GameState {
   remainingTime: number;
   isTimerRunning: boolean;
   isTimeUp: boolean;
-  timerId: number | null;
+  timerId: NodeJS.Timeout | null;
 }
 
 export const useGameStore = defineStore('game', {
@@ -112,7 +112,7 @@ export const useGameStore = defineStore('game', {
           id: index,
           isFlipped: true,
           isMatched: false,
-        })
+        }),
       );
 
       const duplicatedCards = [...this.uniqueCards, ...this.uniqueCards];
@@ -124,7 +124,7 @@ export const useGameStore = defineStore('game', {
             id: index,
             isFlipped: false,
             isMatched: false,
-          })
+          }),
         )
         .sort(() => Math.random() - 0.5);
 

@@ -14,6 +14,6 @@ declare module '*.mp3' {
 }
 
 declare module '*.jpeg' {
-    const value: string;
-    export default value;
+  const value: string;
+  export default value;
 }

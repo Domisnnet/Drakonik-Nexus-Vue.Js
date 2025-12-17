@@ -17,9 +17,12 @@
         </div>
         <div class="text-center">
           <span class="text-xs text-cyan-300 uppercase font-semibold">Tempo</span>
-          <p 
+          <p
             class="text-xl md:text-2xl font-bold transition-colors duration-300"
-            :class="{ 'text-red-500 animate-pulse': gameStore.remainingTime <= 30 && gameStore.remainingTime > 0 }"
+            :class="{
+              'text-red-500 animate-pulse':
+                gameStore.remainingTime <= 30 && gameStore.remainingTime > 0,
+            }"
           >
             {{ formattedTime }}
           </p>
@@ -90,7 +93,6 @@
         </button>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -105,10 +107,10 @@ const restartGame = () => {
   gameStore.initializeGame();
 };
 
-const formattedTime = computed(() => { // lógica do Timmer
+const formattedTime = computed(() => {
+  // lógica do Timmer
   const minutes = Math.floor(gameStore.remainingTime / 60);
   const seconds = gameStore.remainingTime % 60;
   return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 });
-
 </script>
