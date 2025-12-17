@@ -168,7 +168,7 @@ O projeto está disponível para jogar online nos seguintes links:
 <details>
 <summary>É possível jogar Online ❓</summary>
 
-- Sim! Os links de implantação estão disponíveis na seção [![Implantação](https://img.shields.io/badge/6%20-%20Implanta%C3%A7%C3%A3o-009688)](#6--implantação)
+- Sim! Os links de implantação estão disponíveis na Seção:  [![Implantação](https://img.shields.io/badge/6%20-%20Implanta%C3%A7%C3%A3o-009688)](#6--implantação)
 
 </details>
 
