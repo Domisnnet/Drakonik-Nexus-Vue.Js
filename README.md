@@ -168,7 +168,7 @@ O projeto está disponível para jogar online nos seguintes links:
 <details>
 <summary>É possível jogar Online ❓</summary>
 
-- Sim! Os links de implantação estão disponíveis na seção [Implantação](#6--implantação).
+- Sim! Os links de implantação estão disponíveis na seção [![Implantação](https://img.shields.io/badge/6%20-%20Implanta%C3%A7%C3%A3o-009688)](#6--implantação)
 
 </details>
 
@@ -191,7 +191,7 @@ O projeto está disponível para jogar online nos seguintes links:
 ---
 
 <h2 id="licenca">9. 📜 Licença</h2>
-Este projeto está licenciado sob [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js?tab=MIT-1-ov-file)
+Este projeto está licenciado sob [![Licença](https://img.shields.io/badge/9%20-%20Licen%C3%A7a-607D8B)](#9-licença)
 
 
 ---
