@@ -24,9 +24,9 @@
 
 [![Perguntas Frequentes](https://img.shields.io/badge/8%20-%20Perguntas%20Frequentes-FFC107)](#8--perguntas-frequentes)
 
-[![Licença](https://img.shields.io/badge/9%20-%20Licen%C3%A7a-607D8B)](#9-licença)
+[![Licença](https://img.shields.io/badge/9%20-%20Licen%C3%A7a-607D8B)](#9--licença)
 
-[![Conclusão](https://img.shields.io/badge/10%20-%20Conclus%C3%A3o-E91E63)](#10-conclusão)
+[![Conclusão](https://img.shields.io/badge/10%20-%20Conclus%C3%A3o-E91E63)](#10--conclusão)
 
 ---
 
