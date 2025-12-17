@@ -11,7 +11,7 @@
 - [2. ⚙️ Tecnologias Utilizadas](#2-️-tecnologias-utilizadas)
 - [3. 🚀 Como Jogar](#3--como-jogar)
 - [4. 🧩 Regras do Jogo](#4--regras-do-jogo)
-- [5. 🛠️ Instalação e Execução Local ](#5-️-instalação-e-execução-local)
+- [5. 💻 Código Fonte](#5-️-Para-ver-o-código-fonte)
 - [6. 🌐 Implantação](#6--implantação)
 - [7. 🤝 Contribuindo para o Projeto](#7--contribuindo-para-o-projeto)
 - [8. 🧠 Perguntas Frequentes](#8--perguntas-frequentes)
@@ -48,7 +48,7 @@ Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para cr
 
 ## 3. 🚀 **Como Jogar**
 
-1. Acesse um dos links de implantação acima.
+1. Acesse um dos links de implantação abaixo.
 2. Clique em uma carta para revelá-la.  
 3. Encontre o par correspondente.  
 4. Complete o tabuleiro e vença o duelo!
@@ -67,26 +67,10 @@ Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para cr
 
 ---
 
-## 5. 🛠️ **Instalação e Execução Local**
+## 5. 💻 **Código Fonte**
+Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
-```bash
-# Clone o repositório
-git clone https://github.com/Domisnnet/Drakonik-Nexus-Vue.git
-
-# Acesse o diretório
-cd Drakonik-Nexus-Vue
-
-# Instale as dependências
-npm install
-
-# Execute o servidor local
-npm run dev
-```
-
-## 💻 Execução Local
-
-O jogo ficará disponível em [http://localhost:5173](http://localhost:5173)  
-> ⚠️ Observação: a porta pode variar dependendo do ambiente.
+[![Acessar Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus-blue?style=flat&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js)
 
 ---
 
@@ -102,12 +86,70 @@ O projeto está disponível para jogar online nos seguintes links:
 
 > “O coração das cartas também guia os contribuidores!” 🃏
 
-### 🍴 Faça um Fork
+<div style="background-color: #f0f0f0; padding: 20px; 
+            border-radius: 10px; border: 2px solid #222;">
+  <p style="margin-bottom: 10px; font-weight: bold; color: #0056b3; 
+            text-align: center;">
+    <span style="display:inline-block; margin-right: 5px;"> 👐  
+      Siga os passos para fortalecer este deck:
+    </span>
+  </p>
+  <ul style="list-style-type: none; padding: 0; margin: 0;">
+    <li style="margin-bottom: 10px;">
+      <span style="font-weight: bold; color: #1c7430;">1. 🍴 
+        Adicione este projeto ao seu deck e faça um Fork:<br>
+      <a href="https://github.com/Domisnnet/Drakonic-Nexus-Vue.Js/fork"      target="_blank">
+        <img alt="Fazer um Fork" 
+        src="https://img.shields.io/badge/-Fork%20Me-blue?style=for-the-badge&logo=github">
+      </a>
+      </span>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <span style="font-weight: bold; color: #1c7430;">2. 🌿 
+        Crie uma branch - Prepare suas atualizações com esse passo passo:<br>
+      <a href="https://www.atlassian.com/br/git/tutorials/using-branches" target="_blank">
+        <img alt="Tutorial sobre Branches" 
+        src="https://img.shields.io/badge/Docs-Branches-4c1?style=for-the-badge&logo=git&logoColor=white">
+      </a>
+      </span>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <span style="font-weight: bold; color: #1c7430;">3. ✍️ 
+        Prepare seus commits - Guarde suas mudanças no repositório:<br>
+      <a href="https://www.atlassian.com/br/git/tutorials/saving-changes/git-commit" target="_blank">
+        <img alt="Tutorial sobre Commits" 
+        src="https://img.shields.io/badge/Docs-Commits-4c1?style=for-the-badge&logo=git&logoColor=white">
+      </a>
+      </span>
+    </li>
+    <li style="margin-bottom: 10px;">
+      <span style="font-weight: bold; color: #1c7430;">4. 🚀 
+        Envie - Lance sua sugestão de Melhoria:<br>
+      <img alt="Envie o código" 
+        src="https://img.shields.io/badge/Ação-Push-FE5C00?style=for-the-badge&logo=git&logoColor=white">
+      </span>
+    </li>
+    <li>
+      <span style="font-weight: bold; color: #1c7430;">5. ⚔️ 
+        Desafie este deck original - Abrindo um Pull Request:<br>
+      <a href="https://github.2com/Domisnnet/Drakonic-Nexus-Vue.Js/compare" target="_blank">
+        <img alt="Abrir Pull Request" 
+        src="https://img.shields.io/badge/-Abrir%20PR-green?style=for-the-badge&logo=git">
+      </a>
+      </span>
+    </li>
+    <li>
+      <span style="font-weight: bold; color: #1c7430;">6. 🐛
+        Achou algum problema? - Realte pela Issue:<br>
+      <a href="https://github.com/Domisnnet/Drakonic-Nexus-Vue.Js/issues" target="_blank">
+        <img alt="Issues Abertas" 
+        src="https://img.shields.io/github/issues/Domisnnet/Drakonic-Nexus-Vue.Js?style=for-the-badge&color=red">
+      </a>
+      </span>
+    </li>
+  </ul>
+</div>
 
-### 🌱 Crie uma nova branch:
-```bash
-git checkout -b minha-feature
-```
 ---
 
 ## 8. 🧠 Perguntas Frequentes
@@ -146,7 +188,8 @@ git checkout -b minha-feature
 
 ## 9. 📜 Licença
 
-Este projeto está licenciado sob a **MIT License** — consulte o arquivo `LICENSE` para mais detalhes.
+Este projeto está licenciado sob [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js?tab=MIT-1-ov-file)
+
 
 ---
 
@@ -162,5 +205,5 @@ Explore, contribua e divirta-se criando sua própria versão do duelo de memóri
 ## Para conhecer meu Repositório:
 
 <a href="https://github.com/Domisnnet">
-    <img src="https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/blob/main/src/assets/images/DomisDev.png" width="150px" height="150px" alt="Acessar perfil GitHub">
+  <img src="https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/blob/main/src/assets/images/DomisDev.png" width="150px" height="150px" alt="Acessar perfil GitHub">
 </a>
