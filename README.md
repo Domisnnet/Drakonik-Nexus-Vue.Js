@@ -31,7 +31,6 @@
 ---
 
 <h2 id="sobre-o-projeto">1. 🎮 Sobre o Projeto</h2>
-
 **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no universo de Yu-Gi-Oh!  
 O objetivo é simples: encontrar todos os pares de cartas no menor tempo possível.  
 Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para criar interfaces dinâmicas e envolventes.
@@ -40,7 +39,7 @@ Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para cr
 
 ---
 
-## 2. ⚙️ **Tecnologias Utilizadas**
+<h2 id="tecnologias-utilizadas">2. ⚙️ Tecnologias Utilizadas</h2>
 <div align="start">
   <img src="https://img.shields.io/badge/Vue.js-42b883?style=flat&logo=vue.js&logoColor=white" alt="Vue Badge" width="100">
   <img src="https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white" alt="Vite Badge" width="80">
@@ -56,8 +55,7 @@ Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para cr
 
 ---
 
-## 3. 🚀 **Como Jogar**
-
+<h2 id="como-jogar">3. 🚀 Como Jogar</h2>
 1. Acesse um dos links de implantação abaixo.
 2. Clique em uma carta para revelá-la.  
 3. Encontre o par correspondente.  
@@ -67,8 +65,7 @@ Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para cr
 
 ---
 
-## 4. 🧩 **Regras do Jogo**
-
+<h2 id="regras-do-jogo">4. 🧩 Regras do Jogo</h2>
 1. 🔹 Clique em uma carta para virá-la.  
 2. 🔹 Escolha outra carta e tente encontrar a correspondência.  
 3. 🔹 Se as cartas coincidirem, elas permanecem viradas.  
@@ -77,23 +74,21 @@ Além de entreter, este projeto demonstra como **Vue.js** pode ser usado para cr
 
 ---
 
-## 5. 💻 **Código Fonte**
+<h2 id="codigo-fonte">5. 💻 Código Fonte</h2>
 Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 
 [![Acessar Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus-blue?style=flat&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js)
 
 ---
 
-## 6. 🌐 Implantação
-
+<h2 id="implantacao">6. 🌐 Implantação</h2>
 O projeto está disponível para jogar online nos seguintes links:
 
 <p align="left"><a href="https://drakonik-nexus-75177593-75741.web.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; vertical-align: top;"><img src="https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/blob/main/src/assets/images/firebase_badge.svg" alt="Deploy to Firebase Hosting" width="100" style="border: none; vertical-align: top;"></a>&nbsp;&nbsp;<a href="https://domisnnet.github.io/Drakonik-Nexus-Vue.Js/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; vertical-align: top;"><img src="https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/blob/main/src/assets/images/github_badge.svg" alt="Deploy to GitHub Pages" width="125" style="border: none; vertical-align: top;"></a></p>
 
 ---
 
-## 7. 🤝 Contribuindo para o Projeto
-
+<h2 id="contribuindo">7. 🤝 Contribuindo para o Projeto</h2>
 > “O coração das cartas também guia os contribuidores!” 🃏
 
 <div style="background-color: #f0f0f0; padding: 20px; 
@@ -162,8 +157,7 @@ O projeto está disponível para jogar online nos seguintes links:
 
 ---
 
-## 8. 🧠 Perguntas Frequentes
-
+<h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 <details>
 <summary>O que é o Drakonik-Nexus-Vue ❓</summary>
 
@@ -196,15 +190,13 @@ O projeto está disponível para jogar online nos seguintes links:
 
 ---
 
-## 9. 📜 Licença
-
+<h2 id="licenca">9. 📜 Licença</h2>
 Este projeto está licenciado sob [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js?tab=MIT-1-ov-file)
 
 
 ---
 
-## 10. 📝 Conclusão
-
+<h2 id="conclusao">10. 📝 Conclusão</h2>
 O **Drakonik-Nexus-Vue** combina nostalgia, interatividade e aprendizado.  
 Explore, contribua e divirta-se criando sua própria versão do duelo de memória digital!
 
