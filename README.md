@@ -30,7 +30,7 @@
 
 ---
 
-## 1. 🎮 **Sobre o Projeto**
+[![🎮 Sobre o Projeto](https://img.shields.io/badge/1%20-%20Sobre%20o%20Projeto-4CAF50)](#1--sobre-o-projeto)
 
 **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no universo de Yu-Gi-Oh!  
 O objetivo é simples: encontrar todos os pares de cartas no menor tempo possível.  
