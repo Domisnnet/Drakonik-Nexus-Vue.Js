@@ -6,17 +6,19 @@
 
 ---
 
-## 📚 **Tabela de Conteúdo**
-- [1. 🎮 Sobre o Projeto](#1--sobre-o-projeto)
-- [2. ⚙️ Tecnologias Utilizadas](#2-️-tecnologias-utilizadas)
-- [3. 🚀 Como Jogar](#3--como-jogar)
-- [4. 🧩 Regras do Jogo](#4--regras-do-jogo)
-- [5. 💻 Código Fonte](#5-️-Para-ver-o-código-fonte)
-- [6. 🌐 Implantação](#6--implantação)
-- [7. 🤝 Contribuindo para o Projeto](#7--contribuindo-para-o-projeto)
-- [8. 🧠 Perguntas Frequentes](#8--perguntas-frequentes)
-- [9. 📜 Licença](#9-licença)
-- [10. 📝 Conclusão](#10-conclusão)
+## 📚 Tabela de Conteúdo
+
+[![Sobre o Projeto](https://img.shields.io/badge/1%20-%20Sobre%20o%20Projeto-4CAF50)](#1--sobre-o-projeto)
+[![Tecnologias Utilizadas](https://img.shields.io/badge/2%20-%20Tecnologias%20Utilizadas-2196F3)](#2-️-tecnologias-utilizadas)
+[![Como Jogar](https://img.shields.io/badge/3%20-%20Como%20Jogar-FF9800)](#3--como-jogar)
+[![Regras do Jogo](https://img.shields.io/badge/4%20-%20Regras%20do%20Jogo-9C27B0)](#4--regras-do-jogo)
+[![Código Fonte](https://img.shields.io/badge/5%20-%20C%C3%B3digo%20Fonte-795548)](#5-️-Para-ver-o-código-fonte)
+
+[![Implantação](https://img.shields.io/badge/6%20-%20Implanta%C3%A7%C3%A3o-009688)](#6--implantação)
+[![Contribuindo](https://img.shields.io/badge/7%20-%20Contribuindo%20para%20o%20Projeto-3F51B5)](#7--contribuindo-para-o-projeto)
+[![Perguntas Frequentes](https://img.shields.io/badge/8%20-%20Perguntas%20Frequentes-FFC107)](#8--perguntas-frequentes)
+[![Licença](https://img.shields.io/badge/9%20-%20Licen%C3%A7a-607D8B)](#9-licença)
+[![Conclusão](https://img.shields.io/badge/10%20-%20Conclus%C3%A3o-E91E63)](#10-conclusão)
 
 ---
 
