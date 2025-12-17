@@ -190,9 +190,11 @@ O projeto está disponível para jogar online nos seguintes links:
 <details>
 <summary>Como atualizar as versões publicadas (deploy) ❓</summary>
 
-- O projeto está configurado para dois ambientes: **Firebase Hosting** e **GitHub Pages**. Antes de fazer o deploy, é crucial configurar o arquivo `vite.config.ts` corretamente:
-  - **Para o Firebase Hosting**: **Comente** a linha `base: '/Drakonik-Nexus-Vue/'`. Em seguida, rode `npm run build` e faça o deploy da pasta `dist`.
-  - **Para o GitHub Pages**: **Descomente** a linha `base: '/Drakonik-Nexus-Vue/'`. Em seguida, rode o script `./deploy.sh`.
+- **GitHub Pages (Principal):** O processo de deploy foi **totalmente automatizado** usando GitHub Actions.
+  - **Como funciona?** Simplesmente faça um `push` de suas novas alterações para a branch `main`.
+  - O GitHub Actions irá automaticamente construir o projeto, otimizá-lo e publicá-lo na página. Não é necessário nenhum passo manual.
+
+- **Firebase Hosting:** O deploy para o Firebase ainda pode ser feito, mas agora está separado. O workflow `firebase-deploy.yml` (que recomendamos desabilitar para evitar conflitos) foi criado para este propósito. A automação principal está focada no GitHub Pages.
 
 </details>
 
