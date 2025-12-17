@@ -82,7 +82,7 @@ Gostou do jogo? Para ver o código-fonte e contribuir com o projeto, acesse:
 ---
 
 <h2 id="implantacao">6. 🌐 Implantação</h2>
-O projeto está disponível para jogar online nos seguintes links:
+O projeto está disponível para jogar online nos seguintes links: <br>
 
 <p align="left">
   <a href="https://drakonik-nexus-75177593-75741.web.app/" target="_blank" rel="noopener noreferrer" style="text-decoration: none; vertical-align: top;">
