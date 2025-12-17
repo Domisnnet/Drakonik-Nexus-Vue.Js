@@ -202,7 +202,7 @@ Explore, contribua e divirta-se criando sua própria versão do duelo de memóri
 
 ---
 
-## Para conhecer meu Repositório:
+## Para conhecer meu Repositório com todos os meus Projetos, acesse:
 
 <a href="https://github.com/Domisnnet">
   <img src="https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/blob/main/src/assets/images/DomisDev.png" width="150px" height="150px" alt="Acessar perfil GitHub">
