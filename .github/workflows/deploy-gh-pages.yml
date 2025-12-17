@@ -2,8 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # sempre que você fizer commit no main
-  workflow_dispatch:      # permite rodar manualmente
+    branches: [ main ]  
+  workflow_dispatch:     
 
 permissions:
   contents: read
@@ -27,7 +27,7 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm run build:gh   # ← usa sua build com base para gh pages
+        run: npm run build:gh  
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
