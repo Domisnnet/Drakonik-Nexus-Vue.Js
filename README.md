@@ -191,7 +191,7 @@ O projeto está disponível para jogar online nos seguintes links:
 ---
 
 <h2 id="licenca">9. 📜 Licença</h2>
-Este projeto está licenciado sob [![Licença](https://img.shields.io/badge/9%20-%20Licen%C3%A7a-607D8B)](#9-licença)
+Este projeto está licenciado sob [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js?tab=MIT-1-ov-file)
 
 
 ---
