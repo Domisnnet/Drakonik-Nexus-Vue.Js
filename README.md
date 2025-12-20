@@ -66,7 +66,7 @@ Gostou do jogo? Explore o código ou faça sugestões:
 
 O projeto está disponível para jogar online nos seguintes links:
 
-| Plataforma | Status | Link de Acesso |
+| Plataforma | Status | Link de Acesso direto para o Jogo: |
 | :--- | :---: | :--- |
 | **GitHub Pages** | ![Status](https://img.shields.io/badge/Online-brightgreen?style=flat-square) | [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white)](https://domisnnet.github.io/Drakonik-Nexus-Vue.Js/) |
 | **Firebase Hosting** | ![Status](https://img.shields.io/badge/Online-brightgreen?style=flat-square) | [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)](https://drakonik-nexus-75177593-75741.web.app/) |
