@@ -13,8 +13,6 @@ O **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no unive
 
 ---
 
----
-
 ## 📚 Tabela de Conteúdo
 
 | 🎮 O Jogo | 🛠️ Técnico | 🤝 Comunidade |
