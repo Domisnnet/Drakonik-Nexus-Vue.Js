@@ -54,15 +54,7 @@ O **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no unive
 
 ---
 
-<h2 id="codigo-fonte">5. 💻 Código Fonte</h2>
-
-Gostou do jogo? Explore o código ou faça sugestões:
-
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js)
-
----
-
-<h2 id="implantacao">6. 🌐 Implantação</h2>
+<h2 id="implantacao">5. 🌐 Implantação</h2>
 
 O projeto está disponível para jogar online nos seguintes links:
 
@@ -95,6 +87,18 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 ---
 
+<h2 id="instalacao-local">7. 🚀 Instalação e Configuração Local</h2>
+
+```bash
+# Clonar o repositório
+git clone [https://github.com/Domisnnet/GitHub-Stats.git](https://github.com/Domisnnet/GitHub-Stats.git)
+
+# Acessar a pasta
+cd GitHub-Stats
+```
+
+---
+
 <h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 
 <details>
@@ -109,18 +113,25 @@ Usamos **GitHub Actions**. Ao fazer um `push` para a branch `main`, o projeto é
 
 ---
 
-<h2 id="licenca">9. 📄 Licença</h2>
+<h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
 
-Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/GitHub-Stats/edit/main/LICENSE)
+Gostou do jogo? Explore o código ou faça sugestões:
+
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js)
+---
+
+<h2 id="creditos">10. 📝 Créditos</h2>
+
+* **Desenvolvedor 👨‍💻: DomisDev**.
 
 ---
 
-<h2 id="conclusao">10. 📝 Conclusão</h2>
+<h2 id="licenca">11. 📄 Licença</h2>
 
-O **Drakonik-Nexus-Vue** combina nostalgia e aprendizado técnico. Divirta-se!
+Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/GitHub-Stats)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/edit/main/LICENSE)
 
 ---
 
-<h2 id="perfil-do-github">11. 👨‍💻 Perfil do GitHub</h2>
+<h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="/src/assets/images/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> <img src="src/assets/images/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
