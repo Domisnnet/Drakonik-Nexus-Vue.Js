@@ -1,3 +1,7 @@
+![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
+![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/GitHub-Stats/edit/main/LICENSE)
+
 <div align="center">
   <img src="src/assets/images/drakonik-nexus.png" alt="Drakonik Nexus Logo" width="600">
   
@@ -7,13 +11,6 @@
 ---
 
 ## 📚 Tabela de Conteúdo
-
-| 🎮 O Jogo | 🛠️ Técnico | 🤝 Comunidade |
-| :---: | :---: | :---: |
-| [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Código](https://img.shields.io/badge/5%20-%20Código-795548)](#codigo-fonte) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) |
-| [![2. Techs](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#tecnologias-utilizadas) | [![6. Deploy](https://img.shields.io/badge/6%20-%20Deploy-009688)](#implantacao) | [![9. Licença](https://img.shields.io/badge/9%20-%20Licença-607D8B)](#licenca) |
-| [![3. Como Jogar](https://img.shields.io/badge/3%20-%20Jogar-FF9800)](#como-jogar) | [![7. Contribuir](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#contribuindo) | [![10. Conclusão](https://img.shields.io/badge/10%20-%20Fim-E91E63)](#conclusao) |
-| [![4. Regras](https://img.shields.io/badge/4%20-%20Regras-9C27B0)](#regras-do-jogo) | | |
 
 ---
 
