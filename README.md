@@ -31,7 +31,7 @@ O **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no unive
 
 | Passo | Ação |
 | :---: | :--- |
-| **1** | Escolha uma plataforma na seção de [Implantação](#implantacao). |
+| **1** | Escolha uma plataforma na seção de Implantação. |
 | **2** | Clique em uma carta para revelá-la. |
 | **3** | Encontre o par correspondente e complete o tabuleiro. |
 | **4** | Vença o duelo no menor tempo possível! |
@@ -93,13 +93,11 @@ cd Drakonik-Nexus-Vue.Js
 
 <h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 
-<details>
-<summary>O que é o Drakonik-Nexus-Vue ❓</summary>
+<details><summary>O que é o Drakonik-Nexus-Vue ❓</summary>
 Um jogo de cartas da memória com estética inspirada em Yu-Gi-Oh!, feito com Vue.js e Vite.
 </details>
 
-<details>
-<summary>Como funciona o Deploy automático ❓</summary>
+<details><summary>Como funciona o Deploy automático ❓</summary>
 Usamos **GitHub Actions**. Ao fazer um `push` para a branch `main`, o projeto é compilado e publicado no GitHub Pages automaticamente.
 </details>
 
