@@ -71,19 +71,27 @@ O projeto está disponível para jogar online nos seguintes links:
 | **GitHub Pages** | ![Status](https://img.shields.io/badge/Online-brightgreen?style=flat-square) | [Acessar Jogo](https://domisnnet.github.io/Drakonik-Nexus-Vue.Js/) |
 | **Firebase Hosting** | ![Status](https://img.shields.io/badge/Online-brightgreen?style=flat-square) | [Acessar Jogo](https://drakonik-nexus-75177593-75741.web.app/) |
 
+
 ---
 
-<h2 id="contribuindo">7. 🤝 Como Contribuir</h2>
+<h2 id="como-contribuir">6. 🤝 Como Contribuir</h2>
 
-> “O coração das cartas também guia os contribuidores!” 🃏
+Adicione este projeto ao seu "deck" de desenvolvedor! Siga a jornada abaixo para fortalecer este projeto:
 
-1. **Fork o projeto** e adicione ao seu deck.
-2. **Crie sua Branch** para novas melhorias.
-3. **Commit suas mudanças** com mensagens claras.
-4. **Abra um Pull Request** e desafie o deck original!
+| Fase | Ação | Link / Comando |
+| :---: | :--- | :--- |
+| **01** | **Prepare o Terreno** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/fork) |
+| **02** | **Crie uma Branch** | `git checkout -b feature/NovaMelhoria` |
+| **03** | **Guarde as Mudanças** | `git commit -m 'feat: Adiciona nova funcionalidade'` |
+| **04** | **Envie o Código** | `git push origin feature/NovaMelhoria` |
+| **05** | **Desafio Final** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/compare) |
 
-[![Issues](https://img.shields.io/github/issues/Domisnnet/Drakonik-Nexus-Vue.Js?style=flat-square&color=red)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/issues)
-[![Forks](https://img.shields.io/github/forks/Domisnnet/Drakonik-Nexus-Vue.Js?style=flat-square&color=blue)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/network/members)
+
+### 🐛 Encontrou um problema?
+Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
+
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/GitHub-Stats?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/issues)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/GitHub-Stats/issues/new)
 
 ---
 
@@ -111,8 +119,8 @@ Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](https://gith
 
 O **Drakonik-Nexus-Vue** combina nostalgia e aprendizado técnico. Divirta-se!
 
-<div align="center">
-  <a href="https://github.com/Domisnnet">
-    <img src="src/assets/images/DomisDev.png" width="120" alt="Perfil GitHub">
-  </a>
-</div>
+---
+
+<h2 id="perfil-do-github">11. 👨‍💻 Perfil do GitHub</h2>
+
+<a href="https://github.com/Domisnnet"> <img src="public/assets/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
