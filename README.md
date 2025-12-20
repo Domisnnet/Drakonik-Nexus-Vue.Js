@@ -4,7 +4,7 @@
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blue)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/GitHub-Stats/edit/main/LICENSE)
 
-![Drakonik-Nexus](src/assets/images/drakonik-nexus.png" alt="Drakonik Nexus Logo")
+![Drakonik-Nexus](src/assets/images/drakonik-nexus.png).
 
 ---
 
