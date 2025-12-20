@@ -102,16 +102,14 @@ cd Drakonik-Nexus-Vue.Js
 
 <h2 id="faq">8. 🧠 Perguntas Frequentes</h2>
 
-<details>
-  <summary><strong>O que é o Drakonik-Nexus-Vue ❓</strong></summary>
+<details><summary><strong>O que é o Drakonik-Nexus-Vue ❓</strong></summary>
   <br>
   <blockquote>
     É um jogo de cartas da memória com estética inspirada em <strong>Yu-Gi-Oh!</strong>, desenvolvido para demonstrar o poder do <strong>Vue.js 3</strong> e <strong>Vite</strong> na criação de interfaces reativas e performáticas.
   </blockquote>
 </details>
 
-<details>
-  <summary><strong>Como funciona o Deploy automático ❓</strong></summary>
+<details><summary><strong>Como funciona o Deploy automático ❓</strong></summary>
   <br>
   <ul>
     <li>🚀 <strong>Tecnologia:</strong> Utilizamos o <strong>GitHub Actions</strong> para CI/CD.</li>
@@ -119,17 +117,17 @@ cd Drakonik-Nexus-Vue.Js
   </ul>
 </details>
 
-<details>
-  <summary><strong>Posso utilizar o código para meu próprio estudo ou contribuir ❓</strong></summary>
+<details><summary><strong>Posso utilizar o código para meu próprio estudo ou contribuir ❓
+</strong></summary>
   <br>
   ✅ <strong>Com certeza!</strong> O projeto é Open Source. Você pode clonar para estudar ou enviar melhorias. 
-  <br><br>
+  <br>
   <strong>Para contribuir, acesse:</strong><br>
   [![Abrir Pull Request](https://img.shields.io/badge/Contribuir-Abrir%20PR-green?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/compare)
+
 </details>
 
-<details>
-  <summary><strong>O jogo é responsivo ❓</strong></summary>
+<details><summary><strong>O jogo é responsivo ❓</strong></summary>
   <br>
   📱 <strong>Sim!</strong> A interface foi construída com foco em dispositivos móveis e desktops, garantindo que o "duelo" funcione perfeitamente em qualquer tamanho de tela.
 </details>
