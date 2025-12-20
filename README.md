@@ -6,7 +6,7 @@
 
 ![Drakonik-Nexus](src/assets/images/drakonik-nexus.png).
 
-Um jogo de cartas da memória inspirado em **Yu-Gi-Oh!**, desenvolvido com **Vue.js** e **Vite** — diversão e código em um só duelo!
+Um jogo de cartas da memória inspirado em **Yu-Gi-Oh!**, desenvolvido com **Vue.js** e **Vite** — diversão e código em um só duelo!<br>
 O **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no universo de Yu-Gi-Oh! O objetivo é simples: encontrar todos os pares de cartas no menor tempo possível. 
 
 > 💡 Uma combinação entre **frontend moderno** e **nostalgia dos duelos de cartas**.
