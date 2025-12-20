@@ -123,4 +123,4 @@ O **Drakonik-Nexus-Vue** combina nostalgia e aprendizado técnico. Divirta-se!
 
 <h2 id="perfil-do-github">11. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="public/assets/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> <img src="public/src/assets/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
