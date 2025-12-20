@@ -109,9 +109,9 @@ Usamos **GitHub Actions**. Ao fazer um `push` para a branch `main`, o projeto é
 
 ---
 
-<h2 id="licenca">9. 📜 Licença</h2>
+<h2 id="licenca">9. 📄 Licença</h2>
 
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/blob/main/LICENSE) para detalhes.
+Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/GitHub-Stats/edit/main/LICENSE)
 
 ---
 
