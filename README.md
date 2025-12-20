@@ -88,10 +88,10 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 ```bash
 # Clonar o repositório
-git clone [https://github.com/Domisnnet/GitHub-Stats.git](https://github.com/Domisnnet/GitHub-Stats.git)
+git clone [https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js.git](https://github.com/Domisnnet/GitHub-Stats.git)
 
 # Acessar a pasta
-cd GitHub-Stats
+cd Drakonik-Nexus-Vue.Js
 ```
 
 ---
