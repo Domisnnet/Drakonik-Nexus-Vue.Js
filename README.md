@@ -13,7 +13,16 @@ O **Drakonik-Nexus-Vue** é um jogo da memória com temática inspirada no unive
 
 ---
 
+---
+
 ## 📚 Tabela de Conteúdo
+
+| 🎮 O Jogo | 🛠️ Técnico | 🤝 Comunidade |
+| :---: | :---: | :---: |
+| [![1. Sobre](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#sobre-o-projeto) | [![5. Implantação](https://img.shields.io/badge/5%20-%20Implantação-009688)](#implantacao) | [![9. Código](https://img.shields.io/badge/9%20-%20Código%20Fonte-795548)](#codigo-fonte) |
+| [![2. Tecnologias](https://img.shields.io/badge/2%20-%20Tecnologias-2196F3)](#tecnologias-utilizadas) | [![6. Contribuir](https://img.shields.io/badge/6%20-%20Contribuir-3F51B5)](#como-contribuir) | [![10. Créditos](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#creditos) |
+| [![3. Como Jogar](https://img.shields.io/badge/3%20-%20Como%20Jogar-FF9800)](#como-jogar) | [![7. Instalação](https://img.shields.io/badge/7%20-%20Instalação-607D8B)](#instalacao-local) | [![11. Licença](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#licenca) |
+| [![4. Regras](https://img.shields.io/badge/4%20-%20Regras-9C27B0)](#regras-do-jogo) | [![8. FAQ](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#faq) | [![12. Perfil](https://img.shields.io/badge/12%20-%20Perfil-212121)](#perfil-do-github) |
 
 ---
 
