@@ -82,7 +82,7 @@ Adicione este projeto ao seu "deck" de desenvolvedor! Siga a jornada abaixo para
 Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 [![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/GitHub-Stats?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/issues)
-[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/GitHub-Stats/issues/new)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/issues/new)
 
 ---
 
@@ -153,10 +153,10 @@ Gostou do jogo? Explore o código ou faça sugestões:
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/GitHub-Stats)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/edit/main/LICENSE)
+Este projeto é *open source* e está licenciado sob a [![Licença MIT](https://img.shields.io/github/license/Domisnnet/Drakonik-Nexus-Vue.Js)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.Js/edit/main/LICENSE)
 
 ---
 
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="src/assets/images/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> <img src="src/assets/images/DomisDev.png" width="90" alt="Acessar perfil GitHub"> </a>
