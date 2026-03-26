@@ -141,7 +141,7 @@ cd Drakonik-Nexus-Vue.Js
 
 Gostou do jogo? Explore o código ou faça sugestões:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus--Vue.Jsblue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDrakonik--Nexus--Vue.Js-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Drakonik-Nexus-Vue.js)
 
 ---
 
